@@ -1,0 +1,28 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "name": "Gigatron",
+      "location": "Forum, Nis",
+      "number_of_employees": "7"
+    },
+    {
+      "id": 2,
+      "name": "WinWin",
+      "location": "Forum, Nis",
+      "number_of_employees": "15"
+    },
+    {
+      "id": 3,
+      "name": "Tehnomania",
+      "location": "Stop Shop, Nis",
+      "number_of_employees": "22"
+    },
+    {
+      "id": 4,
+      "name": "Gigatron",
+      "location": "Stop Shop, Nis",
+      "number_of_employees": "18"
+    }
+  ]
+}
