@@ -10,7 +10,7 @@ import { Shop } from "./shop";
 const API_URL = "http://localhost:3000";
 
 function getShopObservableByName(name: string): Observable<Shop[]> {
-  console.log(`fetching a product with name: ${name}`);
+  console.log(`fetching a shop with name: ${name}`);
   return from(
     fetch(`${API_URL}/shops/?name=${name}`)
       .then((response) => {
@@ -39,7 +39,7 @@ function createShopSearchBoxByName() {
 }
 
 function getShopObservableByLocation(value: string): Observable<Shop[]> {
-  console.log(`fetching products with location: ${value}`);
+  console.log(`fetching shops with location: ${value}`);
   return from(
     fetch(`${API_URL}/shops/?location=${value}`)
       .then((response) => {
